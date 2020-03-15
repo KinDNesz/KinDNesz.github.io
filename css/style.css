@@ -67,7 +67,8 @@ span{
 }
 
 .logo-nest{
-    position: absolute;
+    position: relative;
+    float: left;
     width: 60px;
     height: 60px;
     top: 0;
@@ -81,6 +82,11 @@ span{
 }
 
 /* Menu */
+.menu {
+    display: block;
+    position: relative;
+    width: auto;
+}
 
 .main-menu-desktop {
     display: none;

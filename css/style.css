@@ -103,12 +103,22 @@ span{
 
 .main-menu-mobile li{
     display: inline-block;
-    padding: 18px 18px;
+    padding: 18px 20px;
 }
 
-.main-menu-mobile li img{
-    width: 24px;
+.main-menu-mobile li i{
+    font-size: 24px; 
+    color: #707070;
 }
+
+.main-menu-mobile li i.active{
+    color: #06FEE2;
+}
+
+.main-menu-mobile li i:hover{
+    color: #06FEE2;
+}
+
 /* Social Media */
 
 .social-media{

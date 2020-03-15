@@ -1,4 +1,4 @@
-html,body{
+body{
     background-color: rgb(22, 22, 22); 
     overflow: hidden; 
     -webkit-touch-callout: none;
@@ -14,6 +14,7 @@ span{
 
 /* Background Text */
 .bgtext{
+    display: none;
     position: relative;
     z-index: -99;
 }
@@ -151,6 +152,15 @@ span{
     color: white;
 }
 
+.intro a{
+    padding: 3px 10px;
+    font-size: 10px;
+    font-family: 'dubai';
+    color: #06FEE2;
+    border: 1px solid #06FEE2;
+    border-radius: 50px;
+}
+
 /* about */
 
 .about h1{
@@ -170,6 +180,11 @@ span{
 }
 
 @media (min-width: 992px){
+    /* Background Text */
+    .bgtext{
+        display: block;
+    }
+
     /* Backgound Image */
 
     .bgimage{
@@ -289,5 +304,16 @@ span{
         font-size: 20px;
         font-family: 'Dubai';
         color: white;
+        margin-bottom: 20px;
     }
+
+    .intro a{
+        padding: 6px 20px;
+        font-size: 18px;
+        font-family: 'dubai';
+        color: #06FEE2;
+        border: 1px solid #06FEE2;
+        border-radius: 50px;
+    }
+    
 }

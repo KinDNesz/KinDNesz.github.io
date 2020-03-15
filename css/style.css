@@ -129,7 +129,7 @@ span{
 
 .intro{
     position: absolute;
-    width: 270px;
+    width: 265px;
     height: 230px;
     text-align: center;
     top: 50%;
@@ -291,6 +291,10 @@ span{
     }
     
     /* Intro */
+
+    .intro{
+        width: 600px;
+    }
 
     .intro h1{
         font-size: 72px;

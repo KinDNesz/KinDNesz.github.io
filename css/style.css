@@ -167,6 +167,7 @@ span{
     font-size: 10px;
     font-family: 'Dubai';
     color: white;
+    margin-bottom: 2px;
 }
 
 .intro a{
@@ -197,6 +198,33 @@ span{
 }
 
 @media (min-width: 992px){
+    /* Background Text */
+    .bgtext{
+        overflow: visible;
+        position: relative;
+        z-index: -99;
+}
+
+    .bgtext p{
+        font-size: 400px;
+        font-family: 'Krona One';
+        color: #2A2A2A;
+        position: absolute;
+        z-index: -98;
+        text-shadow: 6px 0 4px rgb(20, 20, 20);
+        margin: 0;
+}
+
+    .bgtext p.bgtext1{
+        top: -50%;
+        right: 50%;
+}
+
+    .bgtext p.bgtext2{
+        top: 450px;
+        left: 50%;
+}
+
     /* Background Text */
     .bgtext{
         display: block;
@@ -326,7 +354,7 @@ span{
         font-size: 20px;
         font-family: 'Dubai';
         color: white;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .intro a{

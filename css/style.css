@@ -1,6 +1,5 @@
 body{
     background-color: rgb(22, 22, 22); 
-    overflow: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -56,7 +55,7 @@ span{
 /* Navbar */
 
 .side-navigation{
-    position: absolute;
+    position: relative;
     z-index: 999;
     top: 0;
     left: 0;
@@ -167,21 +166,22 @@ span{
     font-size: 16px;
     font-family: 'Dubai';
     color: white;
+    margin-bottom: 10px;
 }
 
 .intro a{
-    padding: 3px 10px;
+    padding: 3px 6px;
     font-size: 16px;
     font-family: 'dubai';
     color: #06FEE2;
-    text-decoration: none;
     border: 1px solid #06FEE2;
-    border-radius: 50px;
+    border-radius: 30px 0 30px 30px;
 }
 
 .intro a:hover{
     background-color: #06FEE2;
     color: rgb(31, 31, 31);
+    text-decoration: none;
 }
 
 /* about */
@@ -202,15 +202,19 @@ span{
     color: #D5D5D5;
 }
 
+.about h4{
+    color: white;
+    font-family: 'dubai';
+}
+
 @media (min-width: 992px){
     /* Background Text */
     .bgtext{
         overflow: visible;
         position: relative;
-        z-index: -99;
 }
 
-    .bgtext p{
+    .bgtext div{
         font-size: 400px;
         font-family: 'Krona One';
         color: #2A2A2A;
@@ -226,6 +230,7 @@ span{
 }
 
     .bgtext p.bgtext2{
+        overflow: hidden;
         top: 450px;
         left: 50%;
 }
@@ -368,7 +373,7 @@ span{
         font-family: 'dubai';
         color: #06FEE2;
         border: 1px solid #06FEE2;
-        border-radius: 50px;
+        border-radius: 30px 0 30px 30px;
     }
     
 }

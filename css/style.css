@@ -145,7 +145,7 @@ span{
 
 .intro{
     position: absolute;
-    width: 265px;
+    width: 300px;
     height: 230px;
     text-align: center;
     top: 50%;
@@ -154,7 +154,7 @@ span{
 }
 
 .intro h1{
-    font-size: 36px;
+    font-size: 40px;
     font-family: 'Krona One';
     color: white;
     margin: 0;
@@ -164,19 +164,25 @@ span{
 .intro p{
     padding: 0;
     margin: 0;
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Dubai';
     color: white;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 .intro a{
     padding: 3px 10px;
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'dubai';
     color: #06FEE2;
+    text-decoration: none;
     border: 1px solid #06FEE2;
     border-radius: 50px;
+}
+
+.intro a:hover{
+    background-color: #06FEE2;
+    color: rgb(31, 31, 31);
 }
 
 /* about */

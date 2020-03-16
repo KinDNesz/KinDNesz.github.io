@@ -14,29 +14,29 @@ span{
 
 /* Background Text */
 .bgtext{
-    display: none;
+    overflow: hidden;
     position: relative;
     z-index: -99;
+    margin-top: 70px;
 }
 
 .bgtext p{
-    margin: 0;
-    font-size: 400px;
+    font-size: 180px;
     font-family: 'Krona One';
     color: #2A2A2A;
-    position: absolute;
+    position: relative;
     z-index: -98;
     text-shadow: 6px 0 4px rgb(20, 20, 20);
+    margin: 0;
 }
 
 .bgtext p.bgtext1{
-    top: -50px;
-    right: 50%;
+    left: -30%;
 }
 
 .bgtext p.bgtext2{
-    top: 450px;
-    left: 50%;
+    margin-top: -40px;
+    right: -30%;
 }
 
 /* Backgound Image */

@@ -11,47 +11,6 @@ span{
     color: #06FEE2;
 }
 
-/* Background Text */
-.bgtext{
-    overflow: hidden;
-    position: relative;
-    z-index: -99;
-    margin-top: 40px;
-}
-
-.bgtext p{
-    font-size: 180px;
-    font-family: 'Krona One';
-    color: #2A2A2A;
-    position: relative;
-    z-index: -98;
-    text-shadow: 6px 0 4px rgb(20, 20, 20);
-    margin: 0;
-}
-
-.bgtext p.bgtext1{
-    left: -30%;
-}
-
-.bgtext p.bgtext2{
-    margin-top: -40px;
-    right: -30%;
-}
-
-/* Backgound Image */
-
-.bgimage{
-    display: none;
-    position: absolute;
-    right: -12%;
-    bottom: -24%;
-}
-
-.bgimage img{
-    width: 600px;
-    height: 600px;
-}
-
 /* Navbar */
 
 .side-navigation{
@@ -164,15 +123,15 @@ span{
     padding: 0;
     margin: 0;
     font-size: 16px;
-    font-family: 'Dubai';
+    font-family: 'Sen';
     color: white;
     margin-bottom: 10px;
 }
 
 .intro a{
-    padding: 3px 6px;
+    padding: 5px 10px;
     font-size: 16px;
-    font-family: 'dubai';
+    font-family: 'Sen';
     color: #06FEE2;
     border: 1px solid #06FEE2;
     border-radius: 30px 0 30px 30px;
@@ -202,19 +161,20 @@ span{
     margin: 0;
     padding: 0;
     font-size: 20px;
-    font-family: 'Dubai';
+    font-family: 'Sen';
     color: #D5D5D5;
 }
 
 .about h4{
     color: white;
-    font-family: 'dubai';
-    font-size: 36px;
+    font-family: 'Krona One';
+    font-size: 30px;
 }
 
 .about i{
     margin: 10px;
-    font-size: 250px;
+    font-size: 150px;
+    display: block;
 }
 
 .about i.html{
@@ -384,15 +344,15 @@ span{
         padding: 0;
         margin: 0;
         font-size: 20px;
-        font-family: 'Dubai';
+        font-family: 'Sen';
         color: white;
         margin-bottom: 25px;
     }
 
     .intro a{
-        padding: 6px 20px;
+        padding: 10px 20px;
         font-size: 18px;
-        font-family: 'dubai';
+        font-family: 'Sen';
         color: #06FEE2;
         border: 1px solid #06FEE2;
         border-radius: 30px 0 30px 30px;
@@ -408,6 +368,12 @@ span{
     }
 
     .about h4{
-        font-size: 72px;
+        font-size: 64px;
+    }
+
+    .about i{
+        margin: 10px;
+        font-size: 250px;
+        display: inline-block;
     }
 }

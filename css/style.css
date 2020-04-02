@@ -13,6 +13,21 @@ span{
     color: #06FEE2;
 }
 
+.button{
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Sen';
+    color: #06FEE2;
+    background-color: transparent;
+    border: 1px solid #06FEE2;
+    border-radius: 30px 0 30px 30px;
+}
+
+.button:hover{
+    color: rgb(20, 20, 20);
+    background-color: #06FEE2;
+}
+
 /* Navbar */
 
 .side-navigation{
@@ -130,21 +145,6 @@ span{
     margin-bottom: 10px;
 }
 
-.intro a{
-    padding: 5px 10px;
-    font-size: 16px;
-    font-family: 'Sen';
-    color: #06FEE2;
-    border: 1px solid #06FEE2;
-    border-radius: 30px 0 30px 30px;
-}
-
-.intro a:hover{
-    background-color: #06FEE2;
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
 /* about */
 .about .row{
     padding-top: 0;
@@ -241,24 +241,21 @@ span{
     color: #707070;
 }
 
-.contact .bottom .button{
-    padding: 5px 10px;
-    font-size: 18px;
-    font-family: 'Sen';
-    color: #06FEE2;
-    background-color: transparent;
-    border: 1px solid #06FEE2;
-    border-radius: 30px 0 30px 30px;
-}
 
-.contact .bottom .button:hover{
-    color: rgb(20, 20, 20);
-    background-color: #06FEE2;
-}
 
 
 
 @media (min-width: 992px){
+    .button{
+        padding: 5px 20px;
+        font-size: 18px;
+        font-family: 'Sen';
+        color: #06FEE2;
+        background-color: transparent;
+        border: 1px solid #06FEE2;
+        border-radius: 30px 0 30px 30px;
+    }
+
     /* Background Text */
     .bgtext{
         overflow: visible;
@@ -415,16 +412,7 @@ span{
         font-size: 20px;
         font-family: 'Sen';
         color: white;
-        margin-bottom: 25px;
-    }
-
-    .intro a{
-        padding: 10px 20px;
-        font-size: 18px;
-        font-family: 'Sen';
-        color: #06FEE2;
-        border: 1px solid #06FEE2;
-        border-radius: 30px 0 30px 30px;
+        margin-bottom: 10px;
     }
 
     /* About */
@@ -503,14 +491,6 @@ span{
         align-self: center;
     }
 
-    .contact .bottom .button{
-        padding: 5px 20px;
-        font-size: 18px;
-        font-family: 'Sen';
-        color: #06FEE2;
-        background-color: transparent;
-        border: 1px solid #06FEE2;
-        border-radius: 30px 0 30px 30px;
-    }
+    
 
 }
